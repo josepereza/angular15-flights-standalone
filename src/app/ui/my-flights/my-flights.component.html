@@ -1,0 +1,10 @@
+<div class="flights-wrapper">
+  <app-flight *ngFor="let flight of flights" [flight]="flight">
+    <ng-container action-wrapper>
+      <div class="action-wrapper">
+        <button class="success" (click)="remove(flight)">Remove track</button>
+        <button class="border" (click)="goToDetails(flight)">Details</button>
+      </div>
+    </ng-container>
+  </app-flight>
+</div>

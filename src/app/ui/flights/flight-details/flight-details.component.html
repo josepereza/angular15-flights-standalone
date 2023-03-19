@@ -1,0 +1,8 @@
+<ng-container *ngIf="flight$ | async as flight">
+  <div class="flight-details">
+    {{ flight.arrivalTime | date }}
+    {{ convertSeconds(flight.duration) }}
+    {{ flight.origin }}
+    {{ flight.destination }}
+  </div>
+</ng-container>

@@ -1,0 +1,12 @@
+<div class="box">
+  <div class="flight-info">
+    <div class="title destination">
+      Destination <span class="bolded">{{ flight.destination }}</span>
+    </div>
+    <div class="title departure">
+      Departure: <span class="bolded">{{ flight.origin }}</span>
+    </div>
+  </div>
+
+  <ng-content select="[action-wrapper]"></ng-content>
+</div>

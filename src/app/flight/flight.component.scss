@@ -1,7 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
-
-body {
-  margin: 0;
+:host {
+  flex: 1 1 25%;
 }
 
 .box {
@@ -11,7 +9,6 @@ body {
   border-radius: 5px;
   min-height: 150px;
   padding: 10px;
-  flex: 1 1 25%;
   .flight-info {
     span.bolded {
       font-weight: 700;
