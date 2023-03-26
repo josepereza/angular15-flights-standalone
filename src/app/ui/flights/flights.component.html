@@ -2,7 +2,7 @@
   <app-flight *ngFor="let flight of flights" [flight]="flight">
     <ng-container action-wrapper>
       <div class="action-wrapper">
-        <button class="success" (click)="track(flight)">Track</button>
+        <button class="success" (click)="track(flight)" *ngIf="!isFlightBooked(flight)">Track</button>
         <button class="border" (click)="goToDetails(flight)">Details</button>
       </div>
     </ng-container>

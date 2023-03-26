@@ -59,13 +59,32 @@
   ],
   "bookedFlights": [
     {
-      "id": 1,
-      "duration": 1234512,
-      "departureTime": "2023-10-10T21:30-03:00",
-      "arrivalTime": "2023-10-11T06:20-04:00",
+      "id": 5,
+      "duration": 6312215,
+      "departureTime": "2023-10-16T19:25-03:00",
+      "arrivalTime": "2023-10-16T22:00-04:00",
+      "origin": "Zagreb - International Airport",
+      "destination": "Madrid International Airport",
+      "connectionDuration": 125,
+      "company": "Dalta"
+    },
+    {
+      "id": 6,
+      "duration": 51125,
+      "departureTime": "2023-10-13T21:25-03:00",
+      "arrivalTime": "2023-10-14T05:00-04:00",
       "origin": "Sao Paulo - International Airport",
-      "destination": "New York - John F. Kennedy",
-      "company": "US Airlines"
+      "destination": "Miami International Airport",
+      "company": "Aviana"
+    },
+    {
+      "id": 3,
+      "duration": 5121315,
+      "departureTime": "2023-10-10T21:25-03:00",
+      "arrivalTime": "2023-10-11T05:00-04:00",
+      "origin": "Sao Paulo - International Airport",
+      "destination": "Miami International Airport",
+      "company": "Aviana"
     }
   ],
   "profile": {

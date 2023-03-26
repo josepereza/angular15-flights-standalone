@@ -32,7 +32,7 @@ export class MyFlightsComponent implements OnInit, OnDestroy {
   remove(flight: FlightDTO): void {
     const subscription = this.flightsService
       .deleteMyFlight(flight.id)
-      .subscribe(() => this.loadData);
+      .subscribe(() => this.loadData());
     this.subscription.add(subscription);
   }
 
